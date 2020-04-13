@@ -20,6 +20,7 @@ public class RandomAgeName {
         return word;
 
     }
+    public int age;
 
     public int getAge() {
         age = (int) (Math.random() * 16 + 1);
