@@ -21,8 +21,6 @@ public class RandomAgeName {
 
     }
 
-    public int age;
-
     public int getAge() {
         age = (int) (Math.random() * 16 + 1);
         // System.out.println(age);
